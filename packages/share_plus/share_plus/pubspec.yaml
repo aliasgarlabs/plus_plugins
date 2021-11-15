@@ -23,7 +23,9 @@ flutter:
 
 dependencies:
   meta: ^1.7.0
-  mime: ^1.0.0
+  mime:
+    git:
+      url: https://github.com/aliasgarlabs/mime.git
   flutter:
     sdk: flutter
   share_plus_platform_interface: ^2.0.0
